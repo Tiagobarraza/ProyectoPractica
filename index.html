@@ -27,7 +27,7 @@
     </section>
 
     <section id="nosotros">
-      <h2>Nosotros - Nuestro Staff</h2>
+      <h2>Nosotros</h2>
       <p>Contamos con un equipo altamente capacitado:</p>
       <ul>
         <li>Barraza Tiago - Gerente General</li>
@@ -36,3 +36,52 @@
         <li>Gigena Gaston - Responsable de Ventas</li>
       </ul>
     </section>
+
+    <section id="clientes">
+        <h2>Clientes Destacados</h2>
+        <p>Hemos trabajado con empresas líderes en diversos sectores:</p>
+        <ul>
+          <li>Industria Automotriz "Volkswagen"</li>
+          <li>Construcción "Ladrillo x Ladrillo"</li>
+          <li>Compañía de luz "Epec"</li>
+          <li>Gobierno Nacional "FAdeA"</li>
+        </ul>
+      </section>
+  
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+          <label for="nombre">Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" required /><br />
+  
+          <label for="email">Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+  
+          <label for="como">¿Cómo te enteraste de nuestra empresa?</label><br />
+          <select id="como" name="como" required>
+            <option value="">Seleccione</option>
+            <option value="Redes">Redes</option>
+            <option value="Comentarios">Comentarios</option>
+            <option value="Otro">Otro</option>
+          </select><br />
+  
+          <div id="especifique-container" style="display:none;">
+            <label for="especifique">Especifique:</label><br />
+            <textarea id="especifique" name="especifique" rows="3"></textarea><br />
+          </div>
+  
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br />
+  
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2025 Metalúrgica Ficticia S.A. Todos los derechos reservados.</p>
+    </footer>
+  
+    <script src="js/script.js"></script>
+  </body>
+  </html>
