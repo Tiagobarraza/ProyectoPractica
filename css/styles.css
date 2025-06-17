@@ -11,11 +11,11 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--gris-claro);
-    color: var(--gris-oscuro);
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto para todo el texto */
+    background-color: var(--gris-claro); /* Fondo gris claro */
+    color: var(--gris-oscuro); /* Texto gris oscuro */
+    margin: 0; /* Eliminar margen por defecto */
+    padding: 0; /* Eliminar padding por defecto */
   }
   
   header {
